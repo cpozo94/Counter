@@ -8,13 +8,14 @@ import "../styles/index.css";
 //import your own components
 import Counter from "./component/SecondsCounter.jsx"
 
+
 //render your react application
 let segundos = 0;
 let minutos = 0;
 let horas = 0;
 let dias= 0;
 
-setInterval(()=>{
+export const myInterval =setInterval(()=>{
     if(segundos >=59){
         segundos=0;
         minutos++
@@ -25,7 +26,7 @@ setInterval(()=>{
         horas=0;
         dias ++;
     }else{
-        segundos ++
+        segundos ++;
     }
     
    
@@ -35,5 +36,5 @@ setInterval(()=>{
         
         document.querySelector("#app"));
 
-},10)
+},1000)
 

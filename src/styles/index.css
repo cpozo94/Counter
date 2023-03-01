@@ -13,3 +13,16 @@
 .container-fluid{
     background: black;
 }
+
+.card-title{
+    font-size: 25px;
+}
+
+
+
+#icon{
+    font-size:60px;
+}
+.texto{
+    font-size: 25px;
+}
