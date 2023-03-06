@@ -10,8 +10,14 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-.container-fluid{
-    background: black;
+.card {
+    background-color: rgb(34, 32, 32);
+    color:white;
+}
+
+#button{
+    
+    background-color: white;
 }
 
 .card-title{
